@@ -169,7 +169,6 @@ ON `exams`.`course_id`
 INNER JOIN `degrees`
 ON `courses`.`degree_id`
 
-# TODO: AGGIUNGI FROM AND JOIN
 
 WHERE `degrees`.`name` = "Corso di laurea Magistrale in fisica"
 AND `courses`.`year` = 1
